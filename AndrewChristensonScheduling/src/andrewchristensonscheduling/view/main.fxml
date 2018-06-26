@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: #06000a;" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="andrewchristensonscheduling.view.MainController">
+   <children>
+      <Pane layoutX="21.0" layoutY="201.0" prefHeight="554.0" prefWidth="365.0" style="-fx-background-color: #300032; -fx-background-radius: 5em;">
+         <children>
+            <Pane layoutX="27.0" layoutY="76.0" prefHeight="456.0" prefWidth="313.0">
+               <children>
+                  <ListView layoutY="45.0" prefHeight="298.0" prefWidth="313.0" />
+                  <Label layoutX="127.0" layoutY="339.0" prefHeight="56.0" prefWidth="60.0" text="- OR -" textFill="#e6e6e8">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <Button defaultButton="true" layoutX="25.0" layoutY="393.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="265.0" style="-fx-background-radius: 5em; -fx-background-color: #e6e6e8;" text="Create New Customer" />
+                  <Label graphicTextGap="1.0" layoutX="92.0" layoutY="4.0" prefHeight="36.0" prefWidth="141.0" text="Select customer:" textFill="#c43235">
+                     <font>
+                        <Font name="Helvetica" size="18.0" />
+                     </font>
+                     <effect>
+                        <Glow level="1.0">
+                           <input>
+                              <DropShadow />
+                           </input>
+                        </Glow>
+                     </effect>
+                  </Label>
+               </children>
+            </Pane>
+            <Label graphicTextGap="1.0" layoutX="48.0" layoutY="20.0" prefHeight="36.0" prefWidth="274.0" text="Customer Database" textFill="#c43235">
+               <font>
+                  <Font name="Helvetica" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </Glow>
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="414.0" layoutY="465.0" prefHeight="298.0" prefWidth="760.0" style="-fx-background-color: #300033; -fx-background-radius: 5em;">
+         <children>
+            <Label graphicTextGap="1.0" layoutX="61.0" layoutY="14.0" prefHeight="36.0" prefWidth="274.0" text="Customer Snapshot" textFill="#c43235">
+               <font>
+                  <Font name="Helvetica" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </Glow>
+               </effect>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="804.0" layoutY="101.0" prefHeight="356.0" prefWidth="365.0" style="-fx-background-color: #300032; -fx-background-radius: 5em;" />
+      <Pane layoutX="644.0" layoutY="24.0" prefHeight="70.0" prefWidth="365.0" style="-fx-background-color: #300032; -fx-background-radius: 5em;">
+         <children>
+            <Label alignment="CENTER" graphicTextGap="1.0" layoutX="7.0" layoutY="7.0" prefHeight="56.0" prefWidth="352.0" text="Placeholder Text" textFill="#c43235">
+               <font>
+                  <Font name="Helvetica" size="46.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </Glow>
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="DEFAULT" />
+               </cursor>
+            </Label>
+         </children>
+      </Pane>
+      <Label graphicTextGap="1.0" layoutX="201.0" layoutY="24.0" prefHeight="44.0" prefWidth="150.0" text="Mediocre" textFill="#fffbfc">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow />
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Label graphicTextGap="1.0" layoutX="201.0" layoutY="73.0" prefHeight="44.0" prefWidth="101.0" text="Event" textFill="#fffbfc">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow />
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Label graphicTextGap="1.0" layoutX="50.0" layoutY="145.0" prefHeight="44.0" prefWidth="228.0" text="lowering expectations" textFill="#fffbfc">
+         <font>
+            <Font name="Helvetica" size="12.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow />
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Label graphicTextGap="1.0" layoutX="200.0" layoutY="122.0" prefHeight="44.0" prefWidth="141.0" text="Handler" textFill="#fffbfc">
+         <font>
+            <Font name="Helvetica" size="36.0" />
+         </font>
+         <effect>
+            <Glow level="1.0">
+               <input>
+                  <DropShadow />
+               </input>
+            </Glow>
+         </effect>
+      </Label>
+      <Pane layoutX="417.0" layoutY="101.0" prefHeight="356.0" prefWidth="760.0" style="-fx-background-color: #300032; -fx-background-radius: 5em;">
+         <children>
+            <Label graphicTextGap="1.0" layoutX="46.0" layoutY="24.0" prefHeight="36.0" prefWidth="274.0" text="Create Appointment" textFill="#c43235">
+               <font>
+                  <Font name="Helvetica" size="30.0" />
+               </font>
+               <effect>
+                  <Glow level="1.0">
+                     <input>
+                        <DropShadow />
+                     </input>
+                  </Glow>
+               </effect>
+            </Label>
+            <Button layoutX="159.0" layoutY="306.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="133.0" style="-fx-background-radius: 5em; -fx-background-color: #e6e6e8;" text="Save Appointment" />
+            <Button layoutX="57.0" layoutY="306.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="85.0" style="-fx-background-radius: 5em; -fx-background-color: #e6e6e8;" text="Reset" />
+            <Label layoutX="32.0" layoutY="68.0" prefHeight="27.0" prefWidth="181.0" text="1. Choose Location" textFill="#e6e6e8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="80.0" layoutY="103.0" prefHeight="36.0" prefWidth="228.0" />
+            <DatePicker layoutX="80.0" layoutY="256.0" prefHeight="36.0" prefWidth="228.0" promptText="Choose Appointment Date" showWeekNumbers="true" />
+            <Label layoutX="32.0" layoutY="224.0" prefHeight="27.0" prefWidth="240.0" text="3. Choose Available Date" textFill="#e6e6e8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="32.0" layoutY="146.0" prefHeight="27.0" prefWidth="181.0" text="2. Choose Service" textFill="#e6e6e8">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <ComboBox layoutX="80.0" layoutY="178.0" prefHeight="36.0" prefWidth="228.0" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="139.0" fitWidth="114.0" layoutX="50.0" layoutY="15.0">
+         <image>
+            <Image url="@../../../../../Desktop/Untitled-1.png" />
+         </image>
+         <effect>
+            <Glow level="1.0" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>
